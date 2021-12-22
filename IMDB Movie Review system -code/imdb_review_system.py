@@ -68,7 +68,7 @@ for i in range(len(data['review'])):
 
 data.head(5)
 
-"""# Text Preprocessing"""
+# Text Preprocessing
 
 
 
@@ -130,7 +130,7 @@ plt.show()
 
 model.save("imdb review.h5")
 
-"""# Creating Custom review predictor bot"""
+# Creating Custom review predictor bot
 
 def imdb_bot(review):
   sentence_list = []
