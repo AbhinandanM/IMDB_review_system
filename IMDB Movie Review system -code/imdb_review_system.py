@@ -9,11 +9,11 @@ from sklearn.model_selection import train_test_split
 from keras.models import Sequential
 from keras.layers import LSTM,Bidirectional,Dropout,Dense,Embedding
 
-
-data = pd.read_csv("/content/drive/MyDrive/imdb/IMDB Dataset.csv")
+#Adjust the file loacation respective to your system
+data = pd.read_csv("~/Documents/IMDB_review_system/'IMDB Movie Review system -code'/dataset/IMDB Dataset.csv")
 data.head()
 
-"""# Data Visualization"""
+# Data Visualization
 
 data['review'][1]
 
